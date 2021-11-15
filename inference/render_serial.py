@@ -182,7 +182,7 @@ def render_serial(original_img, net_g, meta_brushes):
 
     dilation = render_utils.Dilation2d(m=1)
     erosion = render_utils.Erosion2d(m=1)
-    frames_per_layer = [20, 20, 30, 40, 60]
+    frames_per_layer = [20, 20, 30, 40, 60, 80, 100]
     final_frame_list = []
 
     with paddle.no_grad():
