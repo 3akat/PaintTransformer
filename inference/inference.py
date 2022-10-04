@@ -69,6 +69,6 @@ if __name__ == '__main__':
              model_path='paint_best.pdparams',
              output_dir='output/',
              need_animation=True,  # whether need intermediate results for animation.
-             resize_h=2048,  # resize original input to this size. None means do not resize.
-             resize_w=2048,  # resize original input to this size. None means do not resize.
+             resize_h=1024,  # resize original input to this size. None means do not resize.
+             resize_w=1024,  # resize original input to this size. None means do not resize.
              serial=True)  # if need animation, serial must be True.
